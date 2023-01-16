@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.home {
+  display: flex;
+  height: 100vh;
+}
+
+.fenetreGauche {
+  display: flex;
+  width: 50%;
+  margin: 10px;
+}
+
+.fenetreDroite {
+  padding: 20px;
+  width: 50%;
+  margin: 10px;
+}
+
+.textArea {
+  width: 100%;
+  resize: none;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(184, 184, 245, 0.692);
+  padding: 20px;
+}
